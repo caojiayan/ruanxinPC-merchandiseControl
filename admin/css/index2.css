@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+	color:#999;
+}
+hr {
+	width: 118px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#libg {
+	background-color:#FFF;
+	border-bottom-width:0px;
+}
+.table{
+	font-size:12px; width:125px; text-align:left;
+}
+.bj1{
+	width: 1000px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eeeeee;
+}
+.bj1 ul {
+	width: 500px;
+	float: right;
+	height: 20px;
+}
+.bj1 ul li {
+	float: right;
+	list-style-type: none;
+	line-height: 20px;
+	width: 80px;
+	position: relative;
+}
+.bj1 ul li ul{
+	display: none;
+	position: absolute;
+	width: 80px;
+	
+}
+.bj1 ul li:hover ul{
+	display:block;
+	z-index: 1000;
+}
+.bj1 ul li a {
+	font-size: 12px;
+	display: block;
+}
+.bj1 a:hover{
+	color: #FFFFFF;
+}
+.bj1 p {
+	width: 150px;
+	font-size: 12px;
+	line-height: 20px;
+	float: left;
+	color: #999;
+	height: 20px;
+}
+.bj2{
+	width: 1000px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff79a;
+	color: #999;
+}
+.bj2 p {
+	width: 700px;
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 20px;
+	background-image: url(../img/99.png);
+	background-repeat: no-repeat;
+}
+.bj3{
+	width: 703px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff6600;
+}
+.bj4{
+	width: 1000px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eeeeee;
+}
+.bj4 p {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+	line-height: 20px;
+}
+.bj4 p span {
+	float: right;
+}
+
+.bj3 ul li {
+	float: left;
+	list-style-type: none;
+	line-height: 35px;
+	height: 35px;
+	width: 60px;
+	text-align: center;
+}
+.bj3 ul li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+}
+.bj3 ul li a:hover {
+	background-image: url(../img/100.png);
+	background-repeat: no-repeat;
+}
+.content {
+	height: 1050px;
+	width: 701px;
+	border: 1px solid #000;
+	margin-right: auto;
+	margin-left: auto;
+}
+.content #biaoti{
+	
+}
+.content #biaoti p{
+	font-size: 16px;
+	height: 30px;
+	width: 700px;
+	border: 1px solid #000;
+	line-height: 30px;
+}
+.content #biaoti p span{
+	font-size: 20px;
+}
